@@ -1,12 +1,12 @@
 databases:
   - name: arttribute1_DB
-    databaseName: 「Info内のConnectionsにあるDatabase」を入れる
-    user: arttribute1
+    databaseName: arttribute1_db
+    user: arttribute
     region: singapore
 
 services:
   - type: web
-    name: arttribute1
+    name: arttribute
     env: ruby
     region: singapore
     plan: free
