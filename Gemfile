@@ -65,5 +65,5 @@ gem 'carrierwave' , '~> 1.3' ,  '>= 1.3.1'
 gem 'cloudinary'
 gem 'dotenv-rails'
 gem 'geocoder'
-#gem 'mini_magick'
+
 #em 'image_processing', '~> 1.2'
