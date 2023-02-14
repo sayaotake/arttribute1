@@ -1,0 +1,13 @@
+<%= form_for @art do |f| %>
+    <p><%= f.label :image %>
+    <%= f.file_field :image %></p>
+    <p><%= f.label :タイトル %>
+    <%= f.text_field :title, :size => 50 %></p>
+    <p><%= f.label :作者名 %>
+    <%= f.text_field :artist, :size => 50 %></p>
+    <p><%= f.label :概要 %>
+    <%= f.text_field :about, :size => 50 %></p>
+    <%= f.label :所蔵先 %>
+    <%= f.text_field :address, :size => 50 %></p>
+    <%= f.submit "編集する" %>
+<% end %>
